@@ -3,15 +3,16 @@
 	<head>
 		 <title>Javascript functions</title>
 		 <script>
-			function sayIt(word1, word2){
-				word2 = word2 || 'world' ; //setting default value for word2, if incase we forget to pass 2nd parameter
-				document.write(word1+' '+word2);
-				}
+			function add(num1, num2){
+				sum = num1 + num2;
+				return sum;
+			}
 		</script>
 	</head>
 	<body>
 		<script>
-			sayIt('Hello', 'Sam');
+			document.write(add(10, 5));
+			
 		</script>
 	</body>
 </html>
