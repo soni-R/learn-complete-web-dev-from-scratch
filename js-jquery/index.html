@@ -4,13 +4,14 @@
 		 <title>Javascript functions</title>
 		 <script>
 			function sayIt(word1, word2){
+				word2 = word2 || 'world' ; //setting default value for word2, if incase we forget to pass 2nd parameter
 				document.write(word1+' '+word2);
 				}
 		</script>
 	</head>
 	<body>
 		<script>
-			sayIt('Hello', 'World');
+			sayIt('Hello', 'Sam');
 		</script>
 	</body>
 </html>
