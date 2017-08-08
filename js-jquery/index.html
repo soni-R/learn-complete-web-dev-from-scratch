@@ -1,22 +1,21 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		 <title>Javascript Events</title>
-		 <script>
-		 	function focusIn(){
-				alert('I am in the field');
-			}
-			
-			function blurOut(){
-				alert('I am out of the field');
-			}
-
-		 </script>
+		 <title>JQuery</title>
+		 <style>
+		 	.red{
+		 		color: red;
+		 	}
+		 </style>
+		 <script type="text/javascript" src="jquery.js"></script>
+		 
 	</head>
 	<body> 
-	<form>
-		Name: <input onfocus="return focusIn()" onblur="return blurOut()" type="text" name="name" /><br>
-		<input type="submit" value="submit">
-	</form>	
+		<h1>This is a heading</h1>
+
+		<script>
+			$('h1').addClass('red');
+		</script>
+
 	</body>
 </html>
