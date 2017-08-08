@@ -1,35 +1,14 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		 <title>Javascript Conditionals</title>
+		 <title>Javascript Events</title>
+		 <script>
+		 	function sayHi(){
+		 		alert('Hi');
+		 	}
+		 </script>
 	</head>
-	<body>
-		<script>
-		 	var day=new Date().getDay();
-			switch (day){
-				case 0:
-		  			x="Today it's Sunday";
-		  			break;
-				case 1:
-		  			x="Today it's Monday";
-		  			break;
-				case 2:
-		  			x="Today it's Tuesday";
-		  			break;
-				case 3:
-		  			x="Today it's Wednesday";
-		  			break;
-				case 4:
-		  			x="Today it's Thursday";
-		  			break;
-				case 5:
-		  			x="Today it's Friday";
-		  			break;
-				case 6:
-		  			x="Today it's Saturday";
-		  			break;
-			}
-			alert(x);
-		</script>
+	<body onload="return sayHi()"> <!-- sayHi() function will run immediately after body has been loaded -->
+		
 	</body>
 </html>
