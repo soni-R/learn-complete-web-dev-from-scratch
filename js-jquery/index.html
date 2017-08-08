@@ -3,12 +3,18 @@
 	<head>
 		 <title>Javascript Events</title>
 		 <script>
-		 	function sayHi(){
-		 		alert('Hi');
+		 	function changeMe(){
+		 		var heading = document.getElementById('heading');
+		 		heading.innerHTML = 'No kidding!!';
+		 	}
+
+		 	function changeMeBack(){
+		 		var heading = document.getElementById('heading');
+		 		heading.innerHTML = 'This is a heading ';
 		 	}
 		 </script>
 	</head>
 	<body> 
-		<button onclick="return sayHi()">Click Me</button>
+		<h1 id='heading' onmouseover="return changeMe()" onmouseout="return changeMeBack()">This is a heading </h1>
 	</body>
 </html>
