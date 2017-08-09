@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!DOCTYPE movies SYSTEM "movies.dtd">
+<movies>
+	<movie>
+		<title>Interstellar</title>
+		<year>2014</year>
+		<genre>Science fiction</genre>
+		<director> Christopher Nolan </director>
+	</movie>
+
+	<movie>
+		<title>The Martian</title>
+		<year>2015</year>
+		<genre>Science fiction</genre>
+		<director>Ridley Scott</director>
+	</movie>
+
+	<movie>
+		<title>The Pursuit of Happyness</title>
+		<year>2006</year>
+		<genre>Drama</genre>
+		<director>Gabriele Muccino</director>
+	</movie>
+
+	<movie>
+		<title>Frozen</title>
+		<year>2013</year>
+		<genre>Fantasy/Animated cartoon</genre>
+		<director>Chris Buck, Jennifer Lee</director>
+	</movie>
+
+	<movie>
+		<title>Home Alone</title>
+		<year>1991</year>
+		<genre>Adventure/Comedy</genre>
+		<director> Chris Columbus</director>
+	</movie>
+
+</movies>
